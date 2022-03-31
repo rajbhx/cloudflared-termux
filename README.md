@@ -1,6 +1,10 @@
 # cloudflared-termux 
-Article http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html
-YouTube video https://youtu.be/mFKivGz7VFE
+
+#Article 
+http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html
+
+#YouTube 
+video https://youtu.be/mFKivGz7VFE
 
 # Installation
 ```
