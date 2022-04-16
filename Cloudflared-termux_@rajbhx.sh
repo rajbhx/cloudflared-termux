@@ -6,12 +6,12 @@ yes "" | pkg update
 echo "-- installing dependancies: golang git debianutils make"
 yes "" | pkg install golang git debianutils make
 
-echo "-- downloading cloudflared source"
+echo "-- Downloading cloudflared source"
 git clone https://github.com/cloudflare/cloudflared.git --depth=1
 cd cloudflared
 sed -i 's/linux/android/g' Makefile
 
-echo "-- building and installing cloudflared"
+echo "-- Building and installing cloudflared"
 make cloudflared
 install cloudflared /data/data/com.termux/files/usr/bin
 
