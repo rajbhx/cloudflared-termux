@@ -1,4 +1,5 @@
 # cloudflared-termux 
+Cloudflared is a command-line tool provided by Cloudflare that allows you to securely access websites or services that are protected by Cloudflare's reverse proxy service, commonly known as Cloudflare Access. Termux, on the other hand, is an Android terminal emulator and Linux environment app that enables you to run command-line tools and utilities on your Android device.
 
 #Article 
 http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html
