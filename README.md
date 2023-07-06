@@ -1,30 +1,32 @@
-# cloudflared-termux 
-Cloudflared is a command-line tool provided by Cloudflare that allows you to securely access websites or services that are protected by Cloudflare's reverse proxy service, commonly known as Cloudflare Access. Termux, on the other hand, is an Android terminal emulator and Linux environment app that enables you to run command-line tools and utilities on your Android device.
+To install Cloudflared in Termux, you can follow these steps:
 
-# Article 
-http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html
-
-# YouTube 
-video https://youtu.be/mFKivGz7VFE
-
-# Installation
-1. Command
+1. Open your Termux app and update the packages by running the following command:
 ```
 pkg update && pkg upgrade && pkg install git
 ```
-2. Command
+
+2. Clone the Cloudflared repository by executing the following command:
 ```
-git clone https://github.com/rajbhx/cloudflared-termux 
+git clone https://github.com/rajbhx/cloudflared-termux
 ```
-3. Command
+
+3. Navigate to the cloned directory by running:
 ```
 cd cloudflared-termux
 ```
-4. Command
+
+4. Make the script executable by running:
 ```
 chmod +x Cloudflared-termux_@rajbhx.sh
 ```
-5. Command
+
+5. Execute the script to install Cloudflared by running:
 ```
 bash Cloudflared-termux_@rajbhx.sh
 ```
+
+For a detailed guide on how to install Cloudflared in Termux, you can refer to the article on my blog: [How to Install Cloudflared in Termux](http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html).
+
+Additionally, if you prefer a video tutorial, you can watch it on YouTube: [Cloudflared Installation Tutorial](https://youtu.be/mFKivGz7VFE).
+
+Follow these steps to get Cloudflared up and running in your Termux environment. Enjoy the benefits of secure access to websites protected by Cloudflare's reverse proxy service.
