@@ -15,4 +15,4 @@ echo "-- Building and installing cloudflared"
 make cloudflared
 install cloudflared /data/data/com.termux/files/usr/bin
 
-#echo "-- done!https://youtube.com/c/rajbhx "
+#! echo "-- done!https://youtube.com/c/rajbhx "
