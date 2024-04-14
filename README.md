@@ -1,32 +1,48 @@
-To install Cloudflared in Termux, you can follow these steps:
+Installation of Cloudflared in Termux
+==========================================================
 
-1. Open your Termux app and update the packages by running the following command:
-```
+Step 1: Update and Upgrade Packages
+------------------------------------
+
+Initiate the Termux application, subsequently updating existing packages and enhancing them to their most recent iterations. Accomplish this task by executing the following command:
+```bash
 pkg update && pkg upgrade && pkg install git
 ```
 
-2. Clone the Cloudflared repository by executing the following command:
-```
+Step 2: Cloning the Cloudflared Repository
+-----------------------------------------
+
+Clone the official Cloudflared repository utilizing the below-mentioned command:
+```bash
 git clone https://github.com/rajbhx/cloudflared-termux
 ```
+This action shall populate the local machine with the source materials needed for successful Cloudflared deployment.
 
-3. Navigate to the cloned directory by running:
-```
+Step 3: Access the Cloned Directory
+----------------------------------
+
+Navigate to the freshly cloned folder by implementing the following order:
+```bash
 cd cloudflared-termux
 ```
 
-4. Make the script executable by running:
-```
+Step 4: Execution Permissions
+-----------------------------
+
+Make the pertinent installation script executable by applying the subsequent command sequence:
+```bash
 chmod +x Cloudflared-termux_@rajbhx.sh
 ```
 
-5. Execute the script to install Cloudflared by running:
-```
+Step 5: Deploying the Script
+----------------------------
+
+Launch the previously enabled script, thereby instigating the automated Cloudflared installation routine:
+```bash
 bash Cloudflared-termux_@rajbhx.sh
 ```
 
-For a detailed guide on how to install Cloudflared in Termux, you can refer to the article on my blog: [How to Install Cloudflared in Termux](http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html).
+Detailed Documentation and Video Tutorial
+----------------------------------------
 
-Additionally, if you prefer a video tutorial, you can watch it on YouTube: [Cloudflared Installation Tutorial](https://youtu.be/mFKivGz7VFE).
-
-Follow these steps to get Cloudflared up and running in your Termux environment. Enjoy the benefits of secure access to websites protected by Cloudflare's reverse proxy service.
+Refer to [this extensive article](http://jarvisstaraq.blogspot.com/2022/03/how-to-install-cloudflared-in-termux.html) detailing the complete installation process accompanied by illustrative images. Alternatively, explore the [video tutorial on YouTube](https://youtu.be/mFKivGz7VFE) exhibiting the step-by-step execution.
