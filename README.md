@@ -1,3 +1,9 @@
+Cloudflared is officially available on Termux
+
+``` pkg install cloudflared ```
+
+
+
 Installation of Cloudflared in Termux
 ==========================================================
 
